@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "682726114569",
+    "project_id": "burger-ui-a43f6",
+    "storage_bucket": "burger-ui-a43f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682726114569:android:92d4bde88253368263ffd8",
+        "android_client_info": {
+          "package_name": "com.example.burger_ui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAawEUs1SCzBxoMl1M8O9whkd0LHUoj_sU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
