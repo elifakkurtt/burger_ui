@@ -31,7 +31,7 @@ class TextFieldWidget extends StatelessWidget {
             decoration: InputDecoration(
               prefixIcon: prefixIcon,
               hintText: hintText,
-              hintStyle: pBold,
+              hintStyle: pLight,
               border: InputBorder.none,
             ),
           ),

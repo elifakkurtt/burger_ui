@@ -1,10 +1,9 @@
-
+import 'package:burger_ui/constans/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
- 
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +13,7 @@ class HomePage extends StatelessWidget {
         actions: [
           IconButton(
             onPressed: () {
-            Get.back();
+              Get.back();
             },
             icon: const Icon(Icons.logout_outlined),
           ),
@@ -24,6 +23,7 @@ class HomePage extends StatelessWidget {
         child: Center(
           child: Text(
             "Hoş Geldiniz!",
+            style: pBold,
           ),
         ),
       ),

@@ -1,4 +1,5 @@
 
+import 'package:burger_ui/constans/styles.dart';
 import 'package:flutter/material.dart';
 
 class MyButton extends StatelessWidget {
@@ -30,10 +31,7 @@ class MyButton extends StatelessWidget {
         child: Center(
           child: Text(
             text,
-            style: const TextStyle(
-                color: Color.fromARGB(255, 244, 243, 236),
-                fontSize: 20,
-                fontWeight: FontWeight.bold),
+            style: buttonTextStyle,
           ),
         ),
       ),
